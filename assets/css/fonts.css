@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy/Gilroy-Light.eot);
+    src: local("../fonts/Gilroy Light"),
+    url(../fonts/Gilroy/Gilroy-Light.woff) format("woff"),
+    url(../fonts/Gilroy/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro/Gotham-Pro-Light.eot);
+    src: local("../fonts/GothamProLight"),
+    url(../fonts/GothamPro/Gotham-Pro-Light.woff) format("woff"),
+    url(../fonts/GothamPro/Gotham-Pro-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: GothamPro-Medium;
+    src: url(../fonts/GothamPro/Gotham-Pro-Medium.eot);
+    src: local("../fonts/GothamProBlack"),
+    url(../fonts/GothamPro/Gotham-Pro-Medium.woff) format("woff"),
+    url(../fonts/GothamPro/Gotham-Pro-Medium.ttf) format("truetype");
+}
