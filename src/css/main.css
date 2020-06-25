@@ -1,0 +1,817 @@
+@import "fonts.css";
+
+/* default */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 1180px;
+}
+/* --- default --- */
+
+/* header */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    box-shadow: 3px 4px 9px 1px rgba(4, 82, 182, 0.12);
+    background-color: #ffffff;
+    z-index: 999999;
+}
+
+.header_left a {
+    color: #18a4e1;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.14px;
+}
+
+.header_left span {
+    color: #18a4e1;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -50px;
+    margin-right: 5px;
+    letter-spacing: 0.6px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.header_centre ul {
+    display: flex;
+    justify-content: space-between;
+    width: 723px;
+    height: 20px;
+    list-style-type: none;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    padding: 0;
+}
+
+.header_centre a {
+    color: black;
+}
+
+.header_centre a:hover {
+    color: #0452b6;
+}
+
+.header_centre li:hover a:after {
+    display: flex;
+    position: relative;
+    content: "";
+    width: 50%;
+    left: 25%;
+    background-color: #0553b7;
+    height: 1px;
+}
+
+.header_contacts a{
+    display: flex;
+    margin-top: 3px;
+    color: #0553b7;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.14px;
+}
+
+/* wrapper */
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: url(../img/Stomatology.jpg);
+    background-size: cover;
+    padding-top: 67px;
+}
+
+.wrapper_title {
+    padding-top: 50px;
+    color: #18a4e1;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: none;
+    letter-spacing: 0.24px;
+}
+
+.wrapper_text {
+    width: 480px;
+    color: #323232;
+    font-size: 36px;
+    font-family: Gilroy;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+.wrapper_text span {
+    font-weight: bold;
+}
+
+.wrapper_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 38px;
+    background-image: linear-gradient(to right, #0452b6 0%, #18a4e1 100%);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: GothamPro;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    border-radius: 17px/15px;
+}
+
+.wrapper_img {
+    position: absolute;
+    margin-top: 40px;
+    right: 0;
+}
+
+.wrapper_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.work_time {
+    padding-top: 45px;
+    width: 450px;
+    height: 104px;
+    color: #323232;
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+
+.work_time_title {
+    margin-bottom: 10px;
+    width: 404px;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+
+.work_time_item {
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    font-family: GothamPro-Medium;
+    margin-bottom: 10px;
+}
+
+.work_time_item span {
+    margin-left: 10px;
+}
+
+.work_day {
+    background-color: #18a4e1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: GothamPro-Medium;
+    letter-spacing: 0.4px;
+}
+
+.wrapper_bottom {
+    display: flex;
+    width: 1180px;
+    position: absolute;
+    bottom: 55px;
+}
+
+.service_items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.service_item {
+    min-width: 165px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 14px 1px rgba(5, 83, 183, 0.11);
+    background-color: #fff;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.service_item p {
+    padding: 0 5px;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.35px;
+}
+
+/* about us */
+
+.about_us {
+    width: 100%;
+    height: 450px;
+}
+
+.wrapper_about_us {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../img/girl.png) no-repeat -18px 20px;
+}
+
+.about_us_img {
+    width: 575px;
+    height: 140px;
+    box-shadow: 0 0 14px 1px rgba(155, 154, 154, 0.11);
+    background-image: url("../img/9-layers.png");
+}
+
+.about_us_img img {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.about_us_title {
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0.6px;
+    padding-top: 65px;
+    padding-left: 250px;
+}
+
+.about_us_text {
+    width: 77%;
+    height: 77px;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.14px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+
+.about_us_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about_us_item {
+    position: relative;
+}
+
+.about_us_item_bank {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    max-width: 295px;
+    height: 53px;
+    color: #fff;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
+.about_us_item_card {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    max-width: 295px;
+    height: 53px;
+    color: #fff;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
+/* team */
+.specialists {
+    width: 100%;
+    height: 518px;
+}
+
+.specialists_title {
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 48px;
+    padding-bottom: 45px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.specialists_block {
+    width: 100%;
+    display: flex;
+    height: 450px;
+    position: relative;
+}
+
+.our_specialist__items {
+    width: 100%;
+}
+
+.our_specialist__items {
+    display: flex;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    top: auto;
+    justify-content: space-between;
+}
+
+.our_specialist__item {
+    width: 355px;
+    height: 80px;
+    box-shadow: 0 0 6px 1px rgba(5, 83, 183, 0.11);
+    background-color: #fff;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.spec_photo {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.spec_photo img {
+    width: 100%;
+}
+
+.spec_item_desc {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    height: 100%;
+    justify-content: center;
+}
+
+.our_specialist__item__title {
+    width: 270px;
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.45px;
+    z-index: 99999999999999;
+}
+
+.our_specialist__item__pos {
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 15px;
+}
+
+.our_specialist__middle_block {
+    width: 100%;
+    display: flex;
+    height: 450px;
+    position: relative;
+}
+
+.our_specialist__right_block {
+    margin-left: 30px;
+    display: flex;
+    margin-top: 5px;
+    z-index: 60;
+}
+
+.our_specialist__photo {
+    width: 360px;
+    height: 390px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.our_specialist__photo a img {
+    width: 250%;
+    object-fit: contain;
+    position: relative;
+    left: -200px;
+}
+
+.our_specialist__desc {
+    margin-left: 35px;
+    max-width: 350px;
+    width: 350px;
+}
+
+.our_specialist__desc__title {
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+}
+
+.our_specialist__desc__pos {
+    color: #0a0a0a;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.our_specialist__desc__desc {
+    width: 353px;
+    height: 325px;
+    color: #0a0a0a;
+    font-family: GothamPro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.14px;
+    overflow: hidden;
+    overflow-y: visible;
+    scrollbar-width: none;
+    padding-right: 25px;
+}
+
+/* documents */
+.documents {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    margin-top: 45px;
+    background-image: url(../img/Stomatology.jpg);
+}
+
+.documents_title {
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0.6px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slider__item {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.slider__control {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+.slider__control_left {
+    left: 0;
+}
+
+.slider__control_right {
+    right: 0;
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slider__control_left::before {
+    background-image: url(../img/icons/arrow_left.png);
+}
+
+.slider__control_right::before {
+    background-image: url(../img/icons/arrow_right.png);
+}
+
+.slider__content_img {
+    display: flex;
+    padding: 20px 15px;
+    color: #616161;
+}
+
+.slider__content_img img {
+    box-shadow: 3px 4px 9px 1px rgba(4, 82, 182, 0.12);
+}
+
+/* contacts */
+.contacts {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.contacts_map {
+    width: 100%;
+    height: 438px;
+}
+
+.contacts_info_wrapper {
+    width: 457px;
+    height: 390px;
+    box-shadow: 0 0 14px 1px rgba(155, 154, 154, 0.11);
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    z-index: 999999;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-family: GothamPro;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.35px;
+}
+
+.contacts_title {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0.6px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.contacts_content {
+    font-size: 14px;
+    display: flex;
+    color: #323232;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.contacts_content a {
+    color: #323232;
+}
+
+.contacts_content .working_day {
+    padding-top: 0;
+    font-size: 14px;
+}
+
+.place {
+    display: flex;
+}
+
+.place::before {
+    display: flex;
+    content: "";
+    width: 15px;
+    height: 19px;
+    background: url(../img/icons/location_icon.png);
+    margin-right: 25px;
+}
+
+.contacts_content .numbers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 225px;
+    color: #323232;
+    font-family: GothamPro;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contacts_content .numbers a {
+    color: #323232;
+}
+
+.contacts_content .numbers::before {
+    display: flex;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url(../img/icons/phone_icon.png);
+    position: absolute;
+    left: 30px;
+}
+
+.numbers_items {
+    padding-left: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.whatsapp {
+    margin: 15px 0;
+    margin-left: 40px;
+}
+
+.whatsapp::before {
+    display: flex;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url(../img/icons/whatsapp_icon.png);
+    position: absolute;
+    left: 30px;
+}
+
+.mail {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.mail::before {
+    display: flex;
+    content: "";
+    width: 16px;
+    height: 14px;
+    background: url(../img/icons/mail_icon.png);
+    position: absolute;
+    left: 30px;
+}
+
+.contacts_content .contacts_work_time {
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.contacts_content .contacts_work_time {
+    margin-left: 40px;
+    font-family: GothamPro;
+    font-weight: bold;
+}
+
+.work_time_items {
+    padding-bottom: 10px;
+}
+
+.contacts_content .contacts_work_time::before {
+    display: flex;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url(../img/icons/time_icon.png);
+    position: absolute;
+    left: 30px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #0452b6;
+}
+
+.footer_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.copyrights {
+    color: #fff;
+    font-size: 12px;
+    line-height: 48px;
+    font-family: GothamPro;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    display: flex;
+}
+
+.copyrights span {
+    font-family: GothamPro;
+    font-weight: 800;
+}
+
+.developers {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    font-family: GothamPro;
+    font-size: 12px;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+.developers:after {
+    display: flex;
+    content: "";
+    width: 57px;
+    height: 25px;
+    background: url(../img/logo_GM.png);
+    margin-left: 10px;
+}
