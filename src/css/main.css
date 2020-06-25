@@ -57,7 +57,6 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
     align-items: center;
 }
 
@@ -93,28 +92,27 @@ nav {
     height: 1px;
 }
 
-.header_contacts a{
+.header_contacts a {
     display: flex;
-    margin-top: 3px;
     color: #0553b7;
+    margin-top: 3px;
     font-family: GothamPro-Medium;
     font-size: 14px;
     font-weight: bold;
     line-height: 18px;
-    letter-spacing: 0.14px;
 }
 
 /* wrapper */
 .wrapper {
     width: 100%;
     height: 100%;
-    background: url(../img/Stomatology.jpg);
+    background: url(../img/stomatology.jpg);
     background-size: cover;
-    padding-top: 67px;
+    padding-top: 5%;
 }
 
 .wrapper_title {
-    padding-top: 50px;
+    padding-top: 10%;
     color: #18a4e1;
     font-family: GothamPro-Medium;
     font-size: 24px;
@@ -125,14 +123,14 @@ nav {
 }
 
 .wrapper_text {
-    width: 480px;
+    width: 65%;
     color: #323232;
     font-size: 36px;
     font-family: Gilroy;
     font-weight: 300;
     letter-spacing: 0.9px;
     text-transform: uppercase;
-    padding: 25px 0;
+    padding: 3% 0;
 }
 
 .wrapper_text span {
@@ -142,7 +140,6 @@ nav {
 .wrapper_btn {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 130px;
     height: 38px;
     background-image: linear-gradient(to right, #0452b6 0%, #18a4e1 100%);
@@ -152,15 +149,14 @@ nav {
     font-family: GothamPro;
     font-size: 12px;
     font-weight: bold;
-    line-height: 24px;
-    letter-spacing: 0.12px;
-    border-radius: 17px/15px;
+    border-radius: 17px 15px;
 }
 
 .wrapper_img {
     position: absolute;
-    margin-top: 40px;
-    right: 0;
+    margin-top: 5%;
+    right: 0%;
+
 }
 
 .wrapper_img img {
@@ -169,54 +165,49 @@ nav {
 }
 
 .work_time {
-    padding-top: 45px;
     width: 450px;
     height: 104px;
+    padding-top: 5%;
     color: #323232;
     font-family: GothamPro;
     font-size: 16px;
-    font-weight: 900;
     line-height: 30px;
-    letter-spacing: 0.4px;
 }
 
 .work_time_title {
-    margin-bottom: 10px;
     width: 404px;
+    margin-bottom: 2%;
     color: #323232;
     font-family: GothamPro-Medium;
     font-size: 16px;
     font-weight: bold;
-    line-height: 30px;
-    letter-spacing: 0.4px;
 }
 
 .work_time_item {
     display: flex;
+    margin-bottom: 3%;
     align-items: center;
     text-transform: none;
     font-family: GothamPro-Medium;
-    margin-bottom: 10px;
 }
 
 .work_time_item span {
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 .work_day {
     background-color: #18a4e1;
     color: #fff;
     border-radius: 5px;
-    padding: 0 10px;
+    padding: 0% 3%;
     font-family: GothamPro-Medium;
-    letter-spacing: 0.4px;
 }
 
 .wrapper_bottom {
     display: flex;
-    width: 1180px;
     position: absolute;
-    bottom: 55px;
+    width: 1180px;
+    bottom: 8%;
 }
 
 .service_items {
@@ -226,15 +217,15 @@ nav {
 }
 
 .service_item {
-    min-width: 165px;
-    height: 75px;
     display: flex;
+    min-width: 14%;
+    height: 210%;
+    padding-left: 1%;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 14px 1px rgba(5, 83, 183, 0.11);
     background-color: #fff;
-    padding-left: 10px;
-    border-radius: 5px;
 }
 
 .service_item p {
@@ -243,107 +234,83 @@ nav {
     font-family: GothamPro-Medium;
     font-size: 14px;
     font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0.35px;
 }
 
 /* about us */
 
 .about_us {
     width: 100%;
-    height: 450px;
-}
-
-.wrapper_about_us {
-    width: 100%;
-    height: 420px;
-    display: flex;
+    height: 60%;
     flex-direction: column;
-    justify-content: center;
-    background: url(../img/girl.png) no-repeat -18px 20px;
+    background: url(../img/girl.png) no-repeat 10% 15%;
 }
 
 .about_us_img {
-    width: 575px;
-    height: 140px;
+    width: 570px;
+    height: 170px;
     box-shadow: 0 0 14px 1px rgba(155, 154, 154, 0.11);
     background-image: url("../img/9-layers.png");
 }
 
 .about_us_img img {
-    margin-top: 25px;
-    margin-left: 50px;
+    margin-top: 5%;
+    margin-left: 8%;
 }
 
 .about_us_title {
+    padding-top: 5%;
+    padding-left: 21%;
     color: #323232;
+    text-transform: uppercase;
     font-family: GothamPro-Medium;
     font-size: 24px;
     font-weight: bold;
-    line-height: 48px;
-    letter-spacing: 0.6px;
-    padding-top: 65px;
-    padding-left: 250px;
 }
 
 .about_us_text {
     width: 77%;
-    height: 77px;
+    margin-top: 3%;
+    margin-left: 21%;
+    margin-bottom: 7%;
     color: #323232;
     font-family: GothamPro-Medium;
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0.14px;
-    margin-top: 25px;
-    margin-left: 250px;
-    margin-bottom: 60px;
 }
 
 .about_us_items {
     display: flex;
+    position: relative;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 .about_us_item {
     position: relative;
+    max-width: 50%;
+    color: #fff;
+    font-family: GothamPro-Medium;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .about_us_item_bank {
     position: absolute;
     top: 30%;
     left: 40%;
-    max-width: 295px;
-    height: 53px;
-    color: #fff;
-    font-family: GothamPro-Medium;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 30px;
-    letter-spacing: 0.6px;
+    width: 50%;
 }
 
 .about_us_item_card {
     position: absolute;
     top: 40%;
     left: 40%;
-    max-width: 295px;
-    height: 53px;
-    color: #fff;
-    font-family: GothamPro-Medium;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 30px;
-    letter-spacing: 0.6px;
 }
 
-/* team */
+/* specialists */
 .specialists {
     width: 100%;
-    height: 518px;
+    height: 60%;
 }
 
 .specialists_title {
@@ -351,64 +318,43 @@ nav {
     font-family: GothamPro-Medium;
     font-size: 24px;
     font-weight: 800;
-    line-height: 48px;
-    padding-bottom: 45px;
-    letter-spacing: 0.6px;
+    padding-bottom: 4%;
     text-transform: uppercase;
     text-align: center;
 }
 
 .specialists_block {
-    width: 100%;
-    display: flex;
-    height: 450px;
     position: relative;
-}
-
-.our_specialist__items {
+    display: flex;
     width: 100%;
+    height: 20%;
 }
 
-.our_specialist__items {
+.specialists_item {
     display: flex;
-    position: absolute;
-    z-index: 99;
-    bottom: 0;
-    top: auto;
-    justify-content: space-between;
-}
-
-.our_specialist__item {
-    width: 355px;
-    height: 80px;
-    box-shadow: 0 0 6px 1px rgba(5, 83, 183, 0.11);
+    width: 100%;
+    height: 21%;
+    box-shadow: 0 0 14px 1px rgba(5, 83, 183, 0.11);
     background-color: #fff;
-    display: flex;
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    margin-top: 2px;
-    margin-left: 2px;
+    margin-bottom: 5%;
+    margin-top: 1%;
 }
 
-.spec_photo {
-    width: 55px;
-    height: 55px;
+.specialists_img {
+    width: 15%;
+    height: 80%;
     border-radius: 5px;
-    -o-object-fit: contain;
-    object-fit: contain;
     overflow: hidden;
 }
 
-.spec_photo img {
+.specialists_img img {
     width: 100%;
 }
 
-.spec_item_desc {
+.specialists_description {
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -417,113 +363,76 @@ nav {
     justify-content: center;
 }
 
-.our_specialist__item__title {
-    width: 270px;
-    color: #323232;
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.45px;
-    z-index: 99999999999999;
-}
-
-.our_specialist__item__pos {
-    color: #323232;
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-    line-height: 15px;
-}
-
-.our_specialist__middle_block {
+.specialists_description_title {
     width: 100%;
+    color: #323232;
+    font-family: GothamPro-Medium;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.specialists_description_position {
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 16px;
+}
+
+.specialists_main {
     display: flex;
-    height: 450px;
-    position: relative;
+    margin-left: 3%;
+    margin-right: 2%;
 }
 
-.our_specialist__right_block {
-    margin-left: 30px;
-    display: flex;
-    margin-top: 5px;
-    z-index: 60;
-}
-
-.our_specialist__photo {
-    width: 360px;
-    height: 390px;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.our_specialist__photo a img {
-    width: 250%;
-    object-fit: contain;
-    position: relative;
-    left: -200px;
-}
-
-.our_specialist__desc {
+.specialists_main_description {
     margin-left: 35px;
     max-width: 350px;
     width: 350px;
 }
 
-.our_specialist__desc__title {
+.specialists_main_title {
     color: #323232;
-    font-family: Gilroy;
+    font-family: GothamPro-Medium;
     font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 0.6px;
-    line-height: 25px;
+    font-weight: bold;
 }
 
-.our_specialist__desc__pos {
+.specialists_main_position {
     color: #0a0a0a;
     font-family: Gilroy;
     font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-bottom: 2%;
+    margin-top: 2%;
 }
 
-.our_specialist__desc__desc {
-    width: 353px;
+.specialists_main_text {
+    width: 90%;
     height: 325px;
     color: #0a0a0a;
     font-family: GothamPro;
     font-size: 14px;
-    font-weight: 300;
     line-height: 22px;
-    letter-spacing: 0.14px;
-    overflow: hidden;
+    overflow: auto;
     overflow-y: visible;
-    scrollbar-width: none;
-    padding-right: 25px;
+    padding-right: 3%;
 }
 
 /* documents */
 .documents {
     width: 100%;
-    height: 450px;
-    background-size: cover;
-    margin-top: 45px;
-    background-image: url(../img/Stomatology.jpg);
+    height: 55%;
+    margin-top: 4%;
+    background-image: url(../img/stomatology.jpg);
 }
 
 .documents_title {
     width: 100%;
     text-align: center;
-    padding: 45px;
+    padding: 3%;
     color: #323232;
     font-family: GothamPro-Medium;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 48px;
-    letter-spacing: 0.6px;
 }
 
 .slider {
@@ -608,33 +517,25 @@ nav {
 
 /* contacts */
 .contacts {
+    position: relative;
     width: 100%;
     height: 450px;
-    position: relative;
-}
-
-.contacts_map {
-    width: 100%;
-    height: 438px;
 }
 
 .contacts_info_wrapper {
-    width: 457px;
-    height: 390px;
-    box-shadow: 0 0 14px 1px rgba(155, 154, 154, 0.11);
     position: absolute;
-    top: 7%;
-    right: 5%;
-    z-index: 999999;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
+    width: 35%;
+    height: 85%;
+    top: 7%;
+    right: 5%;
+    background-color: #fff;
+    box-shadow: 0 0 14px 1px rgba(155, 154, 154, 0.11);
     color: #323232;
     font-family: GothamPro;
     font-size: 14px;
     font-weight: bold;
-    line-height: 18px;
-    letter-spacing: 0.35px;
 }
 
 .contacts_title {
@@ -647,8 +548,8 @@ nav {
     font-weight: 800;
     line-height: 48px;
     letter-spacing: 0.6px;
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .contacts_content {
@@ -656,16 +557,11 @@ nav {
     display: flex;
     color: #323232;
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 5%;
 }
 
 .contacts_content a {
     color: #323232;
-}
-
-.contacts_content .working_day {
-    padding-top: 0;
-    font-size: 14px;
 }
 
 .place {
@@ -677,141 +573,113 @@ nav {
     content: "";
     width: 15px;
     height: 19px;
+    margin-right: 5%;
+    margin-left: 1%;
     background: url(../img/icons/location_icon.png);
-    margin-right: 25px;
 }
 
 .contacts_content .numbers {
     display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-    margin-left: 40px;
-    width: 225px;
+    margin-top: 5%;
+    margin-left: 8%;
     color: #323232;
     font-family: GothamPro;
     font-weight: bold;
     font-size: 14px;
 }
 
-.contacts_content .numbers a {
-    color: #323232;
-}
-
 .contacts_content .numbers::before {
     display: flex;
+    position: absolute;
     content: "";
     width: 16px;
     height: 16px;
     background: url(../img/icons/phone_icon.png);
-    position: absolute;
-    left: 30px;
+    left: 6%;
 }
 
 .numbers_items {
-    padding-left: 15px;
-    flex-direction: column;
     display: flex;
+    padding-left: 3%;
+    flex-direction: column;
 }
 
 .whatsapp {
-    margin: 15px 0;
-    margin-left: 40px;
+    margin: 5% 5% 5% 8%;
 }
 
 .whatsapp::before {
     display: flex;
+    position: absolute;
     content: "";
     width: 16px;
     height: 16px;
     background: url(../img/icons/whatsapp_icon.png);
-    position: absolute;
-    left: 30px;
+    left: 6%;
 }
 
 .mail {
-    margin-left: 40px;
-    margin-top: 5px;
+    margin-left: 8%;
+    margin-top: 1%;
 }
 
 .mail::before {
     display: flex;
+    position: absolute;
     content: "";
     width: 16px;
     height: 14px;
     background: url(../img/icons/mail_icon.png);
-    position: absolute;
-    left: 30px;
+    left: 6%;
 }
 
 .contacts_content .contacts_work_time {
     line-height: 10px;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .contacts_content .contacts_work_time {
-    margin-left: 40px;
+    margin-left: 8%;
     font-family: GothamPro;
     font-weight: bold;
 }
 
 .work_time_items {
-    padding-bottom: 10px;
+    padding-bottom: 2%;
 }
 
 .contacts_content .contacts_work_time::before {
     display: flex;
-    content: "";
-    width: 16px;
-    height: 16px;
-    background: url(../img/icons/time_icon.png);
     position: absolute;
-    left: 30px;
+    content: "";
+    height: 16px;
+    width: 16px;
+    background: url(../img/icons/time_icon.png);
+    left: 6%;
 }
 
 /* footer */
 .footer {
     width: 100%;
-    height: 50px;
+    height: 6%;
     background-color: #0452b6;
 }
 
 .footer_wrapper {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     height: 100%;
 }
 
 .copyrights {
+    display: flex;
     color: #fff;
     font-size: 12px;
     line-height: 48px;
     font-family: GothamPro;
-    font-weight: 300;
-    letter-spacing: 0.3px;
-    display: flex;
 }
 
 .copyrights span {
     font-family: GothamPro;
-    font-weight: 800;
-}
-
-.developers {
-    width: 260px;
-    display: flex;
-    align-items: center;
-    font-family: GothamPro;
-    font-size: 12px;
-    color: #fff;
-    justify-content: flex-end;
-}
-
-.developers:after {
-    display: flex;
-    content: "";
-    width: 57px;
-    height: 25px;
-    background: url(../img/logo_GM.png);
-    margin-left: 10px;
+    font-weight: bold;
 }
