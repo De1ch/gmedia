@@ -141,6 +141,7 @@ nav {
 .wrapper_btn {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 130px;
     height: 38px;
     background-image: linear-gradient(to right, #0452b6 0%, #18a4e1 100%);
